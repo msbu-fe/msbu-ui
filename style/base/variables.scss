@@ -1,0 +1,111 @@
+// Variables
+//
+// Copy settings from this file into the provided `_custom.scss` to override
+
+// Table of Contents
+// Colors
+// Typeface
+//
+
+$prefix: 'msbu';
+
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+$gray-dark: #393C40 !default;
+$gray: #55595c !default;
+$gray-light: #757980 !default;
+$gray-lighter: #B4B8BF !default;
+$gray-lightest: #F0F1F2 !default;
+$gray-bright: #F7F8FA !default;
+
+$brand-primary: #4A90E2 !default;
+$brand-success: #6EC3B4 !default;
+$brand-info: #69AFEF !default;
+$brand-warning: #FACB5B !default;
+$brand-danger: #E95260 !default;
+
+
+// Typeface
+//
+// Font, line-height, and color for body text, headings, and more.
+
+$font-family-sans-serif: 'Dosis', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root: 16px !default;
+$font-size-base: 1rem !default;
+$font-weight-base: normal !default;
+$line-height-base: 1.5 !default;
+
+$font-size-xl: 1.375rem !default;
+$font-size-l: 1.125rem !default;
+$font-size-m: 1rem !default;
+$font-size-s: 0.875rem !default;
+$font-size-xs: 0.75rem !default;
+
+$line-height-xl: 2.0625rem !default;
+$line-height-l: 1.5625rem !default;
+$line-height-m: 1.375rem !default;
+$line-height-s: 1.25rem !default;
+$line-height-xs: 1.0625rem !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: #FFFFFF !default;
+$body-color: #393C40 !default;
+
+// Button
+//
+// solid && hollow buttons.
+
+$btn-m-height: 2.125rem !default;
+$btn-m-padding-x: 0.9375rem !default;
+
+$btn-l-width: 60% !default;
+$btn-l-height: 2.75rem !default;
+
+$btn-border-radius: 0.25rem !default;
+
+// card
+//
+// card space.
+
+$card-spacer-x: 1.25rem !default;
+$card-spacer-y: .9375rem !default;
+$card-border-width: 1px !default;
+$card-border-radius: .25rem !default;
+$card-bg: #FFFFFF !default;
+
+$card-row-spacer-l: .9375rem !default;
+$card-row-spacer-m: .625rem !default;
+$card-row-spacer-s: .3125rem !default;
+
+// imgholder
+//
+// img holder for avatar and other default img place
+
+$imgholder-square-xl-width: 23.4375rem !default;
+$imgholder-square-xl-height: 10.25rem !default;
+$imgholder-square-l-width: 8.75rem !default;
+$imgholder-square-l-height: 5rem !default;
+$imgholder-square-m-width: 5.625rem !default;
+$imgholder-square-m-height: 3.75rem !default;
+$imgholder-square-s-width: 4.375rem !default;
+$imgholder-square-s-height: 4.375rem !default;
+
+$imgholder-round-l-width: 3.75rem !default;
+$imgholder-round-l-height: 3.75rem !default;
+$imgholder-round-m-width: 3.125rem !default;
+$imgholder-round-m-height: 3.125rem !default;
+$imgholder-round-s-width: 2.5rem !default;
+$imgholder-round-s-height: 2.5rem !default;
+$imgholder-round-radius: 50% !default;
+
+

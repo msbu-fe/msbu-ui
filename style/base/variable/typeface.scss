@@ -1,0 +1,25 @@
+// typeface
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-family-sans-serif: 'Dosis', 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-serif: Georgia, "Times New Roman", Times, serif !default;
+$font-family-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base: $font-family-sans-serif !default;
+
+// Pixel value used to responsively scale all typography. Applied to the `<html>` element.
+$font-size-root: 16px !default;
+$font-size-base: 1rem !default;
+$font-weight-base: normal !default;
+$line-height-base: 1.5 !default;
+
+$font-size-xl: 1.375rem !default;
+$font-size-l: 1.125rem !default;
+$font-size-m: 1rem !default;
+$font-size-s: 0.875rem !default;
+$font-size-xs: 0.75rem !default;
+
+$line-height-xl: 2.0625rem !default;
+$line-height-l: 1.5625rem !default;
+$line-height-m: 1.375rem !default;
+$line-height-s: 1.25rem !default;
+$line-height-xs: 1.0625rem !default;

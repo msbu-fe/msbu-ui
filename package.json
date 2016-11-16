@@ -1,0 +1,26 @@
+{
+  "name": "msbu-ui",
+  "version": "1.0.0",
+  "description": "this is the base and common styles for msbu-ui",
+  "main": "fis-conf.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "fis3 release -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msbu-fe/msbu-ui.git"
+  },
+  "keywords": [
+    "css",
+    "msbu-ui"
+  ],
+  "author": "daisy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msbu-fe/msbu-ui/issues"
+  },
+  "homepage": "https://github.com/msbu-fe/msbu-ui#readme"
+}

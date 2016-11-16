@@ -1,0 +1,42 @@
+@import '../../style/msbu-ui.scss';
+
+body {
+  background-color: $gray-lightest;
+}
+
+.demo-body {
+  background: $gray-bright;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.color-list {
+  margin: 0;
+  padding: 0;
+}
+
+.color-list li {
+  list-style: none;
+  height: 50px;
+}
+
+$colorMap: (
+  0: $gray-dark,
+  1: $gray,
+  2: $gray-light,
+  3: $gray-lighter,
+  4: $gray-lightest,
+  5: $gray-bright,
+  6: $brand-primary,
+  7: $brand-success,
+  8: $brand-info,
+  9: $brand-warning,
+  10: $brand-danger,
+);
+ 
+@each $name, $value in $colorMap {
+  .color-item-#{$name} {
+    background-color: $value;
+  }
+}
+
